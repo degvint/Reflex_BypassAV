@@ -20,8 +20,8 @@ cs生成c格式payload，只留下payload。
 对shellcode进行加密，会在当前目录生成shellcode.txt
 jiami.exe jia payload.c
 
-对shellcode进行解密，会在当前目录生成shellcode.txt
-jiami.exe jie payload.c
+对shellcode进行解密
+jiami.exe jie shellcode.txt
 
 使用本地加载shellcode
 main.exe -f shellcode.txt
